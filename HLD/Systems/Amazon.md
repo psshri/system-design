@@ -11,10 +11,8 @@
 1. Low Latency
 2. High Availability
 3. High Consistency
-
-``` 
+ 
 Meeting all three non-functional requirements for such a huge system is difficult. But not everything needs to be always available, have low latency and be extremely consistent. For example: payment and inventory systems should be highly consistent even at the cost of availability. Search needs to be highly available even if it's slightly inconsistent. Most user facing components should have a low enough latency.
-```
 
 ### 3. Who will be using the system ?
 ### 4. How will they be using it ?
@@ -41,9 +39,7 @@ Meeting all three non-functional requirements for such a huge system is difficul
 ### Amazon HLD
 ![Amazon HLD](../References/Images/Amazon-HLD.png)
 
-```
 The system is divided into two parts: Home & Search view and Purchase & Checkout flow. There will be two UIs that we will offer, a home screen which will have some recommendations, personalized or general depending on if it is a returning user or a new user and a search page where users can see results based on some search text
-```
 
 ### Home & Search flow
 ![Home & Search flow](../References/Images/Amazon-home-search-flow.svg)
